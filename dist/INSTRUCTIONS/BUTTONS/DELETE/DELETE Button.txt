@@ -1,0 +1,7 @@
+﻿DELETE Button
+
+The DELETE button deletes the selected allowed item. Important server files use a warning confirmation. Map mod folders, primary DayZ mod folders, and allowed Knowledge Center items can be moved to the Recycle Bin. Protected instruction folders cannot be deleted.
+
+Simple use:
+Open LAN Launcher, click the button when you need this function, and follow any voice or screen instructions shown by the app.
+

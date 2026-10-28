@@ -1,0 +1,47 @@
+
+
+[2026-07-15 08:26:07]
+Direct Address: 92.38.150.66:10500
+Original Server Data:
+Server name: 3830 | SOUTH AMERICA - SP
+Address: 92.38.150.66:10500
+Server version: 1.29.163451
+Required game version: 1.29.0
+
+Map: Chernarusplus
+Mission: Official DayZ game server
+Players: 4/60
+
+------------------------------------------------------------
+
+[2026-09-16 23:57:23]
+Direct Address: 5.101.164.234:11100
+Original Server Data:
+Server name: 0679 | EUROPE - DE | Many Motorbikes
+Address: 5.101.164.234:11100
+Server version: 1.30.164014
+Required game version: 0.1.0
+
+Map: Chernarusplus
+Mission: Official DayZ Experimental game server with increased car spawn
+Players: 21/60
+
+------------------------------------------------------------
+
+[2026-09-17 00:16:54]
+Direct Address: 23:57
+Original Server Data:
+[2026-09-16 23:57:23]
+Direct Address: 5.101.164.234:11100
+Original Server Data:
+Server name: 0679 | EUROPE - DE | Many Motorbikes
+Address: 5.101.164.234:11100
+Server version: 1.30.164014
+Required game version: 0.1.0
+
+Map: Chernarusplus
+Mission: Official DayZ Experimental game server with increased car spawn
+Players: 21/60
+
+------------------------------------------------------------
+

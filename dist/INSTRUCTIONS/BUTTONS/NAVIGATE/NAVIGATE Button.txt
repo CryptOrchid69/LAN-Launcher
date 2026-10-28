@@ -1,0 +1,7 @@
+﻿NAVIGATE Button
+
+The NAVIGATE button shows the supported server maps. Click NAVIGATE, then click a map name to select it. Other buttons such as LAUNCH, MODS, MPMISSIONS / DZ BASE, and SERVER WIPE use the selected map.
+
+Simple use:
+Open LAN Launcher, click the button when you need this function, and follow any voice or screen instructions shown by the app.
+

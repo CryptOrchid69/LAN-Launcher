@@ -1,0 +1,7 @@
+﻿MPMISSIONS DZ BASE Button
+
+The MPMISSIONS / DZ BASE button opens the selected map files for browsing and editing. It can show mpmissions, profiles, and DayZServer base files. Folders can be expanded with arrows. Supported text files can be opened and edited from inside the app.
+
+Simple use:
+Open LAN Launcher, click the button when you need this function, and follow any voice or screen instructions shown by the app.
+

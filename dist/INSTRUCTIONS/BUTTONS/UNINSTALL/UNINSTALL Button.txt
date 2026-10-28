@@ -1,0 +1,7 @@
+﻿UNINSTALL Button
+
+The UNINSTALL button opens Steam to uninstall DayZ Server. It is used when the user wants a clean reinstall. The app checks for running DayZServer processes before uninstalling so the server folder is not removed while active.
+
+Simple use:
+Open LAN Launcher, click the button when you need this function, and follow any voice or screen instructions shown by the app.
+

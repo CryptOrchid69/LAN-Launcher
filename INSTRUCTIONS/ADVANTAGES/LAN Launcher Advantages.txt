@@ -1,0 +1,31 @@
+﻿LAN Launcher Advantages Over A Batch File
+
+1. Easier for new users
+A batch file expects the user to understand paths, launch parameters, mod names, and Steam folders. LAN Launcher gives the user buttons, folder views, voice guidance, and visible instructions.
+
+2. Safer mod handling
+A batch file can launch mods only if the mod list is typed correctly. LAN Launcher can show map mod folders, accept pasted or dropped mod folders, and copy mod keys into the DayZServer keys folder.
+
+3. Map organization
+A batch file usually launches one fixed setup. LAN Launcher organizes supported maps in one app and lets the user choose the map before launching.
+
+4. Less typing
+Batch files require manual editing. LAN Launcher reduces manual typing by using buttons and guided fields for Steam ID, admin password, launch, install, mods, and server tools.
+
+5. Better protection against mistakes
+A batch file will run even if the user typed something wrong. LAN Launcher can check folders, required files, selected maps, and missing mods before continuing.
+
+6. Built-in file browser
+A batch file cannot browse or edit server files. LAN Launcher lets the user open mpmissions, profiles, DayZServer base files, XML files, JSON files, CFG files, TXT files, and init.c from inside the app.
+
+7. Recycle Bin safety
+A batch file can permanently delete files if written incorrectly. LAN Launcher sends supported deleted files and folders to the Recycle Bin where possible.
+
+8. Voice guidance
+A batch file is silent unless it prints text. LAN Launcher can speak instructions and confirmations to help users who are learning.
+
+9. Cleaner server stopping
+A batch file may leave a server process running. LAN Launcher has a STOP button to help end the running server before uninstalling, reinstalling, or launching another map.
+
+10. Better public usability
+A batch file feels like a technical script. LAN Launcher feels like a desktop tool that a gamer can understand without learning command-line work.

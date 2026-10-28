@@ -1,0 +1,7 @@
+Server Port: udp and (udp.DstPort == 2502 or udp.SrcPort == 2502)
+Bigfoot: udp and (udp.DstPort == 2302 or udp.SrcPort == 2302)
+
+
+
+All Packets Local: outbound or inbound
+All Packets remote: true

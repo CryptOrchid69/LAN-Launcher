@@ -1,0 +1,241 @@
+<spawnabletypes>
+	<!-- Titan_Exoskeleton -->
+	<type name="TitanSuit">
+		<!-- change this for the items to spawn with random health -->
+		<damage min="0.0" max="0.0"/>
+			<!-- change this when you want to lower the attachment chance -->
+		<attachments chance="1.00">
+			<!-- change this when you want to lower the specific item chance -->
+			<item name="Titan_Bag" chance="0.0"/>
+		</attachments>
+			<!-- change this when you want to lower the attachment chance -->
+		<attachments chance="1.00">
+			<!-- change this when you want to lower the specific item chance -->
+			<item name="Titan_Battery" chance="0.0"/>
+		</attachments>
+	</type>
+	<!-- Packboy: rare keycard drops -->
+<type name="packboy">
+  <cargo chance="0.25">
+    <item name="Antoria_KeyCard"         chance="0.1" /> 
+    <item name="fmdpk_landingpad_key_1"  chance="0.1" />
+    <item name="fmdpk_landingpad_key_2"  chance="0.1" />
+    <item name="fmdpk_landingpad_key_3"  chance="0.1" />
+    <item name="fmdpk_landingpad_key_4"  chance="0.1" />
+    <item name="fmdpk_landingpad_key_5"  chance="0.1" />
+  </cargo>
+</type>
+<!-- Kids -->
+	<type name="ZmbM_SkaterYoung_Blue_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Brown_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Green_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Grey_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Brown_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="glassesCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Striped_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="glassesCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Violet_kid">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="glassesCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	
+	<!-- Weapons -->
+	<!--walther-->
+   <type name="Multi_WaltherPistol">
+      <attachments chance="1.00">
+         <item name="PistolSuppressor" chance="0.5" />
+         <item name="Mag_IJ70_8Rnd" chance="1.0" />
+      </attachments>
+   </type>
+   <type name="AK47">
+    <attachments chance="0.45">
+        <item name="AK47_Mag_30rnd" chance="0.85"/>
+        <item name="AK47_Mag_50rnd" chance="0.15"/>
+    </attachments>
+   </type>
+   <type name="AK47_Mag_30rnd">
+    <cargo chance="0.35">
+        <item name="Ammo_762x54" chance="0.85"/>
+        <item name="Ammo_762x54Tracer" chance="0.15"/>
+    </cargo>
+   </type>
+   <type name="AK47_Mag_50rnd">
+    <cargo chance="0.25">
+        <item name="Ammo_762x54" chance="0.85"/>
+        <item name="Ammo_762x54Tracer" chance="0.15"/>
+    </cargo>
+   </type>
+	<!-- Berzerk spawnable types -->
+	<type name="Berzerk_zmb_DemonPriest">
+	<cargo preset="foodCity"/>
+		<attachments chance="1.00">
+			<item name="BZK_DemonHorns" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Berzerk_zmb_DemonGirl1">
+	<cargo preset="foodCity"/>
+		<attachments chance="1.00">
+			<item name="BZK_DemonHorns2" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Berzerk_zmb_DemonGirl2">
+	<cargo preset="foodCity"/>
+		<attachments chance="1.00">
+			<item name="BZK_DemonHorns2" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Berzerk_zmb_CaptainSpaulding">
+	<cargo preset="foodCity"/>
+		<attachments chance="1.00">
+			<item name="BZK_DemonHorns" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Berzerk_zmb_Underground_Hermit">
+	<cargo preset="foodVillage"/>
+		<attachments chance="1.00">
+			<item name="BZK_DemonHorns" chance="1.00"/>
+		</attachments>
+	</type>
+	<!--Berzerk Zombie Knights Start-->
+
+	<!--Zombie Knights Orcs-->
+	<type name="Berzerk_zmb_Orc">
+		<cargo chance="0.50">
+			<item name="BZK_UrukKnight_Boots" chance="0.33"/>
+			<item name="BZK_UrukKnight_Arms" chance="0.33"/>
+			<item name="HumanSteakMeat" chance="0.33"/>
+		</cargo>
+		<attachments chance="1.00">
+			<item name="OrcHelm1" chance="0.125"/>
+			<item name="OrcHelm2" chance="0.125"/>
+			<item name="OrcHelm3" chance="0.125"/>
+			<item name="OrcHelm4" chance="0.125"/>
+			<item name="OrcHelm5" chance="0.125"/>
+			<item name="BZK_UrukKnight_Helmet_Berserk" chance="0.125"/>
+			<item name="BZK_UrukKnight_Helmet_Uruk1" chance="0.125"/>
+			<item name="BZK_UrukKnight_Helmet_Uruk2" chance="0.125"/>
+		</attachments>
+		<attachments chance="0.5">
+			<item name="Chestplate" chance="0.5"/>
+			<item name="BZK_UrukKnight_Chestplate" chance="0.5"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BZK_KnightShouldersSpikes" chance="1.00"/>
+        </attachments>
+	</type>
+	
+	
+	<!--Vanilla Knights-->
+	<type name="ZmbM_HermitSkinny_Black">
+		<cargo chance="0.10">
+			<item name="Chainmail_Coif" chance="0.33"/>
+			<item name="MedievalBoots" chance="0.33"/>
+			<item name="BZK_VagrantKnight_Pants" chance="0.33"/>
+			<item name="BZK_VagrantKnight_Boots" chance="0.33"/>
+			<item name="BZK_VagrantKnight_Arms" chance="0.33"/>
+			<item name="BZK_vagrantknight_belt" chance="0.33"/>
+		</cargo>
+        <attachments chance="1.00">
+            <item name="NorseHelm" chance="0.33"/>
+            <item name="BZK_VagrantKnight_Helmet" chance="0.33"/>
+            <item name="BZK_HornedKnight_Helmet" chance="0.33"/>
+        </attachments>
+        <attachments chance="0.2">
+            <item name="Chestplate" chance="1.00"/>
+        </attachments>
+        <attachments chance="0.2">
+            <item name="BZK_Vagrant_Shieldpack" chance="0.5"/>
+            <item name="BZK_BackShield1_Backpack" chance="0.5"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Zombie_Chainmail" chance="1.00"/>
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Zombie_Chainmail_Leggings" chance="1.00"/>
+        </attachments>
+    </type>
+	
+	
+	<!--Example of how to make zombie clothes always ruined so players can't loot them-->	
+	<type name="BZK_KnightShouldersSpikes">
+		<damage min="1.00" max="1.00" />
+	</type>	
+	<type name="Zombie_Chainmail_Leggings">
+		<damage min="1.00" max="1.00" />
+	</type>	
+	<type name="Zombie_Chainmail">
+		<damage min="1.00" max="1.00" />
+	</type>
+	<!--End Zombie Knights-->
+	<!--Bus-->
+	<type name="gglaw_Bus">
+    <!-- Mandatory bus parts: each attachment needs its own guaranteed block -->
+    <attachments chance="1.00">
+        <item name="BusPsychoWheel_offroad" chance="1.00" />
+    </attachments>
+    <attachments chance="1.00">
+        <item name="BusPsychoWheel_offroad" chance="1.00" />
+    </attachments>
+    <attachments chance="1.00">
+        <item name="BusPsychoWheel_offroad" chance="1.00" />
+    </attachments>
+    <attachments chance="1.00">
+        <item name="BusPsychoWheel_offroad" chance="1.00" />
+    </attachments>
+    <attachments chance="1.00">
+        <item name="BusPsycho_Driver" chance="1.00" />
+    </attachments>
+
+    <!-- Core vehicle parts: 30% chance each -->
+    <attachments chance="0.30">
+        <item name="CarBattery" chance="1.00" />
+    </attachments>
+    <attachments chance="0.30">
+        <item name="CarRadiator" chance="1.00" />
+    </attachments>
+    <attachments chance="0.30">
+        <item name="SparkPlug" chance="1.00" />
+    </attachments>
+
+    <!-- Headlamps: 30% chance each -->
+    <attachments chance="0.30">
+        <item name="HeadlightH7" chance="1.00" />
+    </attachments>
+    <attachments chance="0.30">
+        <item name="HeadlightH7" chance="1.00" />
+    </attachments>
+	</type>
+</spawnabletypes>

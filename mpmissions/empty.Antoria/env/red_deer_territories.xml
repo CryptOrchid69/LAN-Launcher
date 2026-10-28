@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<territory-type>
+    <territory color="855703296">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="3003.33" z="7256" r="96"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="3254.67" z="7268" r="96"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="2117.14" z="7421.9" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="2790" z="6930" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="3426.67" z="6656.67" r="224"/>
+    </territory>
+    <territory color="856817408">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="3002.5" z="9742.5" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="3302.5" z="8622.5" r="208"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="4072.5" z="9262.5" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="4292.5" z="10092.5" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="4292.5" z="8502.5" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="3672.5" z="9822.5" r="224"/>
+    </territory>
+    <territory color="890371840">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5442.5" z="11782.5" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5402.5" z="10402.5" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="6402.5" z="10402.5" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="6682.5" z="11362.5" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5902.5" z="11072.5" r="224"/>
+    </territory>
+    <territory color="855703296">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="15368.6" z="7231.42" r="80"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="15500" z="8377.14" r="96"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="14871.4" z="7965.71" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="15482.9" z="6660" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="16102.9" z="8037.14" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11646.7" z="8220" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="13326.7" z="8413.33" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="12286.7" z="9000" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11420" z="9080" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="12113.3" z="9913.33" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11773.3" z="10020" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11100" z="9466.67" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="10522.7" z="9001.33" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="9820" z="9406.67" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="9686.67" z="9893.33" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="9386.67" z="10380" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="8673.33" z="10180" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="8420" z="9953.33" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="7633.33" z="9873.33" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="7333.33" z="10386.7" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="6720" z="10540" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="6186.67" z="10466.7" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5806.67" z="10293.3" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5446.67" z="10260" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5200" z="9806.67" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5253.33" z="9546.67" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5546.67" z="9306.67" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="6140" z="9480" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="6633.33" z="9926.67" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="6273.33" z="8993.33" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="8200" z="8860" r="160"/>
+    </territory>
+    <territory color="823262976">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="15852" z="5770.5" r="80"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="15709.5" z="5996.5" r="144"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="14512" z="6400" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="15750" z="5528" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="15635" z="5791.01" r="112"/>
+    </territory>
+    <territory color="856817408">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="3453.33" z="7726.67" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="3736.67" z="7613.33" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="3276.67" z="7293.33" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="4490" z="7456.67" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="4996.67" z="7580" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="4004" z="7309.33" r="224"/>
+    </territory>
+    <territory color="855703296">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="6124" z="8268" r="80"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5581.01" z="6758" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5756" z="7640" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="6340" z="7768" r="256"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5403.01" z="7233.66" r="192"/>
+    </territory>
+    <territory color="855703296">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="6045.01" z="4730" r="96"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="7076.67" z="4865.01" r="96"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="6495.01" z="4680" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5345.01" z="4190" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="4920" z="4975.01" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="6140" z="5236" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="6208" z="4064" r="224"/>
+    </territory>
+    <territory color="856817408">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11352.5" z="7702.5" r="96"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="10502.5" z="7752.5" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="12052.5" z="8092.5" r="96"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="10972.5" z="8062.5" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="10922.5" z="7612.5" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11812.5" z="7712.5" r="224"/>
+    </territory>
+    <territory color="856817408">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="9543.34" z="7813.33" r="256"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="10035.8" z="7814.99" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="10725.8" z="7427.47" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11068" z="7496.59" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="10404.2" z="7675.95" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="10763.4" z="7816.69" r="160"/>
+    </territory>
+    <territory color="856817408">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="12478.3" z="7223.84" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="12216.2" z="7791.52" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11520" z="7599.04" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11848.7" z="7192.32" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="12848.3" z="7383.36" r="128"/>
+    </territory>
+    <territory color="855703296">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="9113.33" z="6862.67" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="10138.7" z="6581.33" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="9780" z="6812" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="9438.67" z="6866.67" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="10108" z="6865.33" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="8832" z="6780" r="160"/>
+    </territory>
+    <territory color="856817408">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="17024" z="7180" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="16924" z="7992" r="144"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="15668" z="7848" r="144"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="15132" z="7544" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="15880" z="8008" r="192"/>
+    </territory>
+    <territory color="856817408">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="15083.7" z="7458.67" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="14924.3" z="6801.42" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="14485" z="7214" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="14578.6" z="6186.82" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="14168.6" z="6624.03" r="96"/>
+    </territory>
+    <territory color="856817408">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="12163.3" z="5416.69" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11270" z="4716.59" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11250" z="5070.08" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="12885" z="5238.4" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11213.3" z="4236.59" r="160"/>
+    </territory>
+    <territory color="856817408">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="8862.5" z="9467.5" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="9197.5" z="9247.5" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="9182.5" z="9577.5" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="8962.5" z="9267.5" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="9052.5" z="9437.5" r="128"/>
+    </territory>
+    <territory color="856817408">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="4900" z="7313.33" r="112"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5584.64" z="8178.67" r="112"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="4863.36" z="8626.67" r="112"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5603.36" z="8453.33" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="5536.64" z="7816.67" r="96"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="3834" z="7044" r="160"/>
+    </territory>
+    <territory color="856817408">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11133" z="4779.5" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11255.5" z="4259.01" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11506.7" z="4930.67" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11437" z="4659.33" r="256"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11858.7" z="4593.33" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11781.3" z="4896" r="192"/>
+    </territory>
+    <territory color="856817408">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="7873.28" z="8450" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="8603.31" z="8238.34" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="8513.33" z="7866.67" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="8940" z="7093.33" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="8193.39" z="8136.67" r="224"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="8803.41" z="7930" r="128"/>
+    </territory>
+    <territory color="855703296">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="16492.5" z="16612.5" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="16082.5" z="16687.5" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="16317.5" z="16847.5" r="256"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="16297.5" z="16652.5" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="16142.5" z="16832.5" r="224"/>
+    </territory>
+    <territory color="855703296">
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="9580" z="4748" r="96"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="9356" z="4384" r="128"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="9172" z="5076" r="160"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="10436" z="5780" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="10536" z="5164" r="192"/>
+        <zone name="Zone_deer" smin="0" smax="0" dmin="0" dmax="2" x="11556" z="4980" r="160"/>
+    </territory>
+</territory-type>

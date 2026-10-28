@@ -1,0 +1,74 @@
+<spawnabletypes>
+<type name="Old_Bike">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Old_Bike_White">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Old_Bike_Red">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Old_Bike_Green">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Old_Bike_Blue">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Old_Bike_Pink">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Lady_Bicycle">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="ladybicycle_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ladybicycle_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Lady_Bicycle_Purple">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="ladybicycle_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ladybicycle_wheel" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>

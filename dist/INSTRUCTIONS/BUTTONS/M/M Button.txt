@@ -1,0 +1,7 @@
+﻿M Button
+
+The M button mutes or unmutes LAN Launcher voice instructions. If the voice becomes distracting, click M to mute it. Click M again to allow voice guidance again.
+
+Simple use:
+Open LAN Launcher, click the button when you need this function, and follow any voice or screen instructions shown by the app.
+

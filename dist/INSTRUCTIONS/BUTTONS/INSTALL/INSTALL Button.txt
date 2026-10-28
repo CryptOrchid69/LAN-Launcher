@@ -1,0 +1,15 @@
+﻿INSTALL Button
+
+The INSTALL button prepares DayZServer for LAN Launcher. It opens Steam installation where needed, checks required folders, prepares map folders, installs mission templates, verifies required mods, and copies mod keys into the DayZServer keys folder.
+
+What INSTALL prepares:
+- Official maps that come from DayZ or purchased DayZ DLC, such as Chernarus and Enoch.
+- Workshop map servers that need Workshop mods, such as Banov, Bitterroot, DeerIsle, and Namalsk.
+- Required base mods, including @CF and @VPPAdminTools.
+- A future Badlands server folder and config path, so Badlands can be added quickly after Bohemia releases the official DLC files through Steam.
+
+Important Badlands note:
+Badlands is prepared as a future official DLC map. It does not use a Workshop map mod. After Badlands is released and the user purchases and installs it through Steam, click INSTALL again. LAN Launcher will then look for the official Badlands mission folder and place it into the Badlands server setup when Steam provides it.
+
+Simple use:
+Open LAN Launcher, click INSTALL, and follow any voice or screen instructions shown by the app.

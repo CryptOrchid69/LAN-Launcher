@@ -1,0 +1,28 @@
+﻿DC Button
+
+Purpose:
+The DC button opens the DayZ client DataCache folder. DC means DataCache.
+
+When To Use It:
+Use this button when DayZ shows strange visual problems, missing textures, broken fog, bright pink or magenta screen effects, or other client-side rendering problems after joining a LAN server.
+
+What It Opens:
+The DC button opens this folder inside LAN Launcher:
+%LOCALAPPDATA%\DayZ\DataCache
+
+The important file in this folder is:
+cache.ch
+
+How To Use It:
+1. Click the DC button.
+2. LAN Launcher will show the DayZ DataCache folder in the white display window.
+3. Click the cache.ch file.
+4. LAN Launcher will announce, "You may now click the DELETE button."
+5. Click DELETE.
+6. The cache.ch file will be moved to the Recycle Bin.
+7. Launch DayZ again. DayZ will automatically rebuild a fresh cache.ch file.
+
+Safety Notes:
+LAN Launcher only allows the cache.ch file to be deleted from this DataCache view. This helps protect the user from deleting unrelated files by mistake.
+
+This button does not uninstall DayZ, does not uninstall DayZServer, and does not delete any server map. It only helps clear the DayZ client cache when visual/rendering problems appear.

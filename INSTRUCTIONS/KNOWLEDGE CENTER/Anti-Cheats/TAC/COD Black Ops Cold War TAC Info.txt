@@ -1,0 +1,49 @@
+Questions And Answers About TAC (Treyacrch Anti Cheat): 
+
+Q: Is TAC a kernel level anti cheat?
+
+A: No, it operates strictly in user mode. While TAC communicates with Activision's servers to validate player behavior and enforce bans, 
+a significant portion of its defense mehcanism scans the PC at the game application level.
+
+Q: When TAC goes into my PC and begins scanning anything, what exactly does it scan?
+
+A: 1.) It constantly scans System Memory (RAM). 
+It guards its own data to ensure no external cheat program is injecting code or changing values, like giving infinte ammo, etc.,
+
+And it scans the names and code signatures of other active applications in your RAM to check if a known cheat engine or 
+debugger is running at the same time.
+
+    2.) It scans the Processor (CPU).
+TAC uses the CPU to do rapid background calculations and security checks. It deliberately runs scrambled instructions 
+to confuse cheat programs, and uses standard CPU commands to check if someone is trying to pause or debugger
+the game to exectute reverse engineering. 
+
+	3.) It scans Open Windows and Visual Overlays.
+TAC has visibility into your desktop. It checks for WINDOW TITLES, meaning that it looks at the names of open windows 
+on your desktop to spot active cheat menus.
+
+It scans for overlays, the visual layers sitting on the top of your game window to detect unauthorized third party overlays, 
+such as transparent wallhack or esp menus.
+
+    4.) Local Network Data (TCP Tables)
+TAC checks your local network traffic layout. It looks at the PC's internal network routing tables to make sure a cheating 
+application isn't trying to intercept or alter data passing between your local game and the Activision servers.
+
+Q: Which areas of a PC is TAC not capable of accessing?
+
+A: The Core Operating System Files. It cannot modify or monitor deep Windows system files. 
+
+Hardware Drivers: It cannot see or block what your mouse, keyboard, or graphics card drivers are doing at a fundamental hardware level.
+
+• Startup Processes: It cannot run in the background when the game is closed; it only has access to your PC while the game executable is 
+actively running.
+
+Q: Does TAC know how to read and understand GSC mod script?
+
+A: Yes, TAC can read, understand, and detect unauthorized GSC (Game Script Code) mod scripts, but it does so structurally rather than 
+"reading" them like text files.
+
+Q: How exactly does TAC monitor and catch unauthorized GSC scripts?
+
+A: TAC knows & instantly detects the difference btween an official vanilla GSC script and a GSC script that has been altered. 
+

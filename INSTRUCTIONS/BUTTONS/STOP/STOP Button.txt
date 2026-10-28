@@ -1,0 +1,7 @@
+﻿STOP Button
+
+The STOP button stops the active DayZServer process. Use STOP before uninstalling, reinstalling, launching another map, or closing out a stuck server. This helps prevent stuck server processes.
+
+Simple use:
+Open LAN Launcher, click the button when you need this function, and follow any voice or screen instructions shown by the app.
+

@@ -1,0 +1,7 @@
+﻿ENTER Button
+
+The ENTER button saves data when the user is editing supported files or app fields. It is used for saving edited server files, saving admin information, and confirming certain typed data. When data is saved, LAN Launcher can confirm the save with voice feedback.
+
+Simple use:
+Open LAN Launcher, click the button when you need this function, and follow any voice or screen instructions shown by the app.
+

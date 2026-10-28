@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+<type name="TD_BarrelPlastic">
+		<hoarder />
+	</type>
+	<type name="TD_BarrelMetal">
+		<hoarder />
+	</type>
+	<type name="TD_BarrelMetal1">
+		<hoarder />
+	</type>
+	<type name="TD_BarrelMetal2">
+		<hoarder />
+	</type>
+	<type name="TD_ChestTravel">
+		<hoarder />
+	</type>
+	<type name="TD_ChestOrnated">
+		<hoarder />
+	</type>
+	<type name="TD_CasePaper">
+		<hoarder />
+	</type>
+	<type name="TD_CaseBox">
+		<hoarder />
+	</type>
+	<type name="TD_CratePlastic">
+		<hoarder />
+	</type>
+	<type name="TD_CrateBox">
+		<hoarder />
+	</type>
+	<type name="TD_CrateWooden">
+		<hoarder />
+	</type>
+</spawnabletypes>

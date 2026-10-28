@@ -1,0 +1,7 @@
+﻿DZ Button
+
+The DZ button opens the primary DayZ folder view. This is for manually placing legitimate Workshop mod folders into the main DayZ client folder. LAN Launcher does not automatically place mods there. The user controls what goes into this folder.
+
+Simple use:
+Open LAN Launcher, click the button when you need this function, and follow any voice or screen instructions shown by the app.
+

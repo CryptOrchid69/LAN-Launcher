@@ -1,0 +1,11 @@
+LAN LAUNCHER B BUTTON
+
+The B button opens the default web browser on the user's PC.
+
+The button is round, metallic gold, and labeled with the letter B. It is placed at the bottom of the LAN Launcher app between the DSC button and the DC button.
+
+When the user clicks the B button, LAN Launcher asks Windows to open the user's default browser. The browser opens to a normal web page so the user can immediately begin internet surfing, searching, reading instructions, checking Steam pages, checking mod information, or looking up server help.
+
+This button does not install mods, delete files, change server settings, launch a server map, stop a server, or alter any DayZServer folder. Its only purpose is to provide quick access to the user's regular internet browser.
+
+If the browser does not open, the user should make sure that Windows has a default browser selected in Windows settings.

@@ -1,0 +1,115 @@
+Maybe you chose to download this app just out of idle curiosity, or if you're like me, you saw this as an opportunity to finally be able to play DayZ privately & solo on your own LAN server. Well, you came to the right place!
+
+I designed and created this lovely gemstone of an app for several good reasons. In this .txt file, I want to talk about my DayZ experience 
+and what sort of things I've had to deal with on public servers. 
+
+Reason #1: To escape from cheaters and also to give DayZ noobs a chance to learn the survival skills of the game undisturbed. 
+
+Reason #2: To avoid inept and (or) malevolent Admin on the community servers who play these absurd cat & mouse games with their players. I'm not saying all Admin are like that, in fact most admin are super nice people, but it is nonetheless true, I have had to deal with Admin who will actually stalk their players. 
+
+Reason #3: To avoid clever hackers who actually know how to manipulate and exploit BattlEye so they can then trick BattlEye into banning innocent-arbitrary players. 
+Go Here For The Evidence: https://x.com/TheBattlEye/status/1847377622692745242
+
+Reason #4: To give players a chance to learn how to use VPP Admin Tools.
+
+Reason #5: To give Admin a quick & easy LAN setup to experiment with. 
+====================================================================================================
+
+If anyone from BOHEMIA is reading this, I want to stop here and thank you for all of your hard work. You did a fantastic job of designing the maps & terrain for this game. I think Chernarus and Livonia are awesome maps.
+
+However, I honestly think that DayZ needs a bit of an overhaul. I think that DayZ needs to be rebuilt from the ground up and certain things need to be changed
+to make this game better. 
+
+Here are some of my own ideas about making changes in DayZ that I'm sure will never happen, but here goes.
+
+IDEA #1: Completely disable PVP in DayZ. Instead, design some really nice Dev Mod AI to replace PVP. You can design AI bots who will frequently raid player bases immediately after their base flag has been raised and established. 
+
+Doing this will totally incapacitate the cheaters who are presently using undetectable cheats. This would also greatly reduce any need to stay in business with an easily manipulated anti cheat such as BattlEye. 
+
+As long as there are knowledgeable hackers who know just as much about computer science as anti cheat developer, there will always be the cat & mouse game going on between the two. By keeping PVP active you are actually making cheat developers prosperous & rich, not to mention the high overturn rate of legitimate players quitting the game, lets not fool ourselves. 
+
+IDEA #2: If the first idea is out of the question, then at the very least this change should be made to make things less stressful for legitimate players who are being targeted by cheaters. Whenever a legitimate player or cheater shoots another player, that player loses their gear. As if this doesn't suck bad enough, they even respawn on the coast of the map. 
+
+If you absolutely insist on keeping PVP active, then you need to set up this game so that when the player dies, they respawn on the coast WITH ALL OF THEIR GEAR. I think this would help melt off some of the stress of being targeted by cheaters.
+
+IDEA #3: I understand that in DayZ this thing known as the -Fog of War- has a relevance, that when a player gets shot and killed, there cannot be a -Kill Feed- in order to maintain the Fog of War. 
+
+But if there was a default kill feed for ALL servers, Official, Experimental & Community servers, then this would help BattlEye tremendously to catch those players who are using undetectable cheats. This would also simultaneously prevent players from falsely assuming that they were killed by a cheater when in fact they had been killed by a legitimate player. This -Fog of War- concept absolutely must be done away with if we are serious about fair game play. 
+
+Anyone who seriously insists on maintaining PVP and doing away with cheaters would never disagree with this idea.
+
+If anyone disagrees and thinks this is a bad idea, then lets ask ourselves an intelligent question, what is more important, stopping cheaters once and for all, or maintaining the -Fog of War?-
+
+IDEA #4: If the above ideas are not acceptable, then I offer you my last and final solution which is probably the worst of all. BOHEMIA must drastically reduce the price of DayZ. This game is not worth $49.99 when you have players using undetectable cheats. 
+=====================================================================================================
+
+Other ideas I've had about improving DayZ. 
+
+The base building in DayZ is illogical and crude. I cannot count how many times I have tried to set up an Improvised Stick Shelter or a tent or a fence on level ground and it couldn't be placed. This needs to be fixed and improved. Honestly, it would be nice if players could build anywhere and everywhere without having to rely on a mod from the workshop. 
+
+How about amping up the vanilla base building, so that players can combine rope with sticks to make a floor kit, roof kit, or a nice ladder? How about a vanilla cabin kit, so that players can set up a nice log cabin in the woods somewhere, that has a stone fireplace? 
+
+Perhaps add more crafting to the game, so that players can build a chair to sit on or a wooden table? Add bicycles to the game, to make traveling a bit easier? 
+=====================================================================================================
+I am well aware that the above ideas I have mentioned will almost certainly never happen, hence the biggest reason of all for why I developed this nice standalone desktop app, LAN Launcher. 
+
+I developed this app in three different languages, English, Portuguese and Russian. I did this because over the years I've noticed that the bulk of players in this game usually seems to gravitate around these three languages in particular. So many English, Portuguese and Russian speaking players in DayZ. 
+
+I worked tirelessly, to create an app for DayZ gamers who like myself want an escape from the public servers. =====================================================================================================
+Things I've learned about Cheaters & Dupers:
+
+One of the biggest reasons why dupers dupe loot, is because they know that doing a long honest grind to earn loot is pointless when other players can teleport into their bases and get all of their loot otherwise. They figure that grinding for loot on the Official servers is a waste of time and sadly they're absolutely right about that. In my opinion, dupers & glitch exploiters are the smartest cheaters.
+
+These are the types of cheaters who have this weird fascination with the collisional flaws and then try to exploit these flaws. Any online game has to a greater or lesser degree collisional flaws. 
+
+Then you have the worse kind of cheaters, the ones who use undetectable cheats. These are the assholes who will teleport into your base and snatch up all of your loot, use aimbot to blow you away, magic bullet to shoot you through walls, use ESP to sniff out any hidden loot stashes you have buried somewhere outside your base, etc., 
+=====================================================================================================
+
+ABOUT THE KNOWLEDGE CENTER
+
+When you go into the Knowledge Center, you will find some information that you may think is questionable. There is information about changing Hardware ID and IPv4 public address. 
+
+Usually, whenever someone changes the HWID and IPv4 public address it is because they are trying to dodge a GAME BAN. This sort of thing would certainly make you 
+think that by placing this kind of information in the Knowledge Center, that I am helping Cheaters. 
+
+I want to make something very clear, I did not put this information in the Knowledge Center to help CHEATERS manipulate anti cheats. I placed this information in the 
+Knowledge Center to help VICTIMS of hackers and faulty anti cheats, such as BattlEye. 
+
+Let me explain myself more clearly. Almost two years ago, I was playing DayZ which uses the anti cheat known as BattlEye. After two years of playing DayZ, something very strange had happened. For absolutely no comprehensible reason, I had received a notification from BattlEye that I was Globally Banned from DayZ. I had also received a notification from STEAM that I was VAC banned.
+
+My heart dropped all the down to my ass, I sat there in front of my PC with my eyes wide open not knowing what to think. Whenever any anti cheat places a GLOBAL BAN on your gaming account, you will not only be banned from that specific game, you will also be banned from any other games that uses that very same anti cheat.
+
+If you were globally banned by BattlEye in DayZ, then you will be banned from other games like GTA 5 online, Rust, etc., 
+
+Until this very day, I still have absolutely no idea of how I could have been banned. I had absolutely no suspicious cheat scripts or programs sitting on my desktop. I had no suspicious apps of any kind sitting on my desktop and I know for certainty, that I wasn't cheating. Could it have been some hacker who had found a way to 
+manipulate BattlEye to get me banned? 
+
+Set aside from this type of information, the Knowledge Center has very legit information about computer science in general, everything from how to make full use of your PC keyboard, what all the buttons do, commands for cmd, etc., I didn't just want to create LAN Launcher for gaming, I also wanted this app to be a good educational experience for gamers as well. 
+
+So I thought that adding the Knowledge Center would be a nice thing. 
+
+So I then began to do my research and learn more about how to safely change the Hardware ID in my PC. I also learned how to get a new IPv4 public address from my ISP or Internet Service Provider. 
+
+Then I went to the website Eldorado, and purchased a STEAM account with DayZ already installed in it, for a very low price. Soon, I was back in the game. Unfortunately since I am using a bought account, I cannot publish any STEAM workshop mods for DayZ. 
+
+But that isn't such a loss to me, since DayZ has high overturn rate and is a dying game. More and more players are leaving DayZ and the community servers have become very vacant. 
+
+Honestly, whenever I want to engage in serious PVP action, I prefer to play Battlefield 2042 & Battlefield 6. Whenever I want to fish, hunt deer or fight with zombies and modded monsters, I play DayZ, I play alone and in private on my LAN server. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+DSC BUTTON - DIRECT SERVER CONNECT
+
+The DSC button means Direct Server Connect.
+
+This button is designed to help the user connect directly to a DayZ server by using an IP address and port number.
+
+The DSC button can be used for:
+
+LAN servers
+Community servers
+Official servers
+
+How to use the DSC button:
+
+1. Click the triangular metallic gold DSC button.
+2. The display window will show the Direct Server Connect area.
+3. Type or paste the server address into the IP and port type bar.
+4. The address should look like this format:
+
+31.214.136.147:11300
+
+5. The user may also paste a larger block of copied server information. If the pasted text contains a valid server address, LAN Launcher will automatically clean the type bar so only the usable IP and port remain.
+6. Click the DSC button again to connect.
+
+What DSC does:
+
+DSC prepares the DayZ client display settings and then attempts to launch DayZ directly into the selected server.
+
+For the best chance of joining Official servers, Community servers, and LAN servers, DSC first tries to use the BattleEye DayZ executable when it is available. This helps prevent BattleEye launch problems on servers that require BattleEye.
+
+If the BattleEye launch path is not available, DSC will try the next available DayZ launch method.
+
+Recent LAN & Public Servers:
+
+When the user pastes or enters a valid server address, LAN Launcher saves a record of that server in the RECORDS folder.
+
+The RECORDS folder contains a text file named:
+
+Recent LAN & Public Servers.txt
+
+The user can open this text file from inside LAN Launcher, edit it, delete old information, or copy a saved server address and paste it back into the DSC type bar.
+
+Important notes:
+
+DSC can help make server joining faster and easier, but it cannot guarantee that every server will allow the connection.
+
+A server may still reject the user if:
+
+The server is full.
+The server requires a password.
+The user is missing required mods.
+The user has extra mods loaded that the server does not allow.
+The game version does not match the server version.
+BattleEye or Steam authentication rejects the connection.
+The server is offline or restarting.
+
+DSC is meant to simplify the joining process as much as possible while still respecting how DayZ, Steam, and BattleEye handle server connections.

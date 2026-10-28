@@ -1,0 +1,7 @@
+﻿INSTRUCTIONS Button
+
+The INSTRUCTIONS button opens the built-in knowledge center. It shows ADVANTAGES, BUTTONS, FEATURES-FUNCTIONS, and KNOWLEDGE CENTER. Built-in instruction files are protected. The Knowledge Center is for the user to add personal files and folders.
+
+Simple use:
+Open LAN Launcher, click the button when you need this function, and follow any voice or screen instructions shown by the app.
+

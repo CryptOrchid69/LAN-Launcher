@@ -1,0 +1,7 @@
+﻿SERVER WIPE Button
+
+The SERVER WIPE button wipes the selected server map by moving its storage_1 folder to the Recycle Bin. This resets persistence for that map. Use NAVIGATE first, select the map, then click SERVER WIPE and confirm if you want to continue.
+
+Simple use:
+Open LAN Launcher, click the button when you need this function, and follow any voice or screen instructions shown by the app.
+

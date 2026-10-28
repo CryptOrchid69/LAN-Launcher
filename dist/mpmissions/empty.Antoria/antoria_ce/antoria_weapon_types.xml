@@ -1,0 +1,99 @@
+<types>	
+<!-- Revolver -->
+   <type name="Ant_Revolver">
+      <nominal>3</nominal>
+      <lifetime>28800</lifetime>
+      <restock>0</restock>
+      <min>1</min>
+      <quantmin>30</quantmin>
+      <quantmax>80</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="weapons" />
+      <usage name="Town" />
+   </type>
+   <type name="Ant_Revolver_White">
+      <nominal>3</nominal>
+      <lifetime>28800</lifetime>
+      <restock>0</restock>
+      <min>1</min>
+      <quantmin>30</quantmin>
+      <quantmax>80</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="weapons" />
+      <usage name="Town" />
+   </type>
+   <type name="Ant_Revolver_Pink">
+      <nominal>3</nominal>
+      <lifetime>28800</lifetime>
+      <restock>0</restock>
+      <min>1</min>
+      <quantmin>30</quantmin>
+      <quantmax>80</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="weapons" />
+      <usage name="Town" />
+   </type>
+	<!-- Walther -->
+   <type name="Multi_WaltherPistol">
+      <nominal>15</nominal>
+      <lifetime>3600</lifetime>
+      <restock>0</restock>
+      <min>5</min>
+      <quantmin>0</quantmin>
+      <quantmax>0</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="weapons"/>
+      <usage name="Military" />
+      <usage name="Police" />
+      <usage name="LockedOnly" />
+      <value name="Tier4" />
+   </type>
+   <type name="AK47">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>300</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <category name="weapons"/>
+    <usage name="Military"/>
+    <value name="Tier5"/>
+    <value name="Tier6"/>
+    <value name="Tier7"/>
+   </type>
+   <type name="AK47_Mag_30rnd">
+    <nominal>12</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>4</min>
+    <quantmin>10</quantmin>
+    <quantmax>80</quantmax>
+    <cost>75</cost>
+    <flags count_in_cargo="0" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Military"/>
+    <value name="Tier5"/>
+    <value name="Tier6"/>
+    <value name="Tier7"/>
+   </type>
+   <type name="AK47_Mag_50rnd">
+    <nominal>4</nominal>
+    <lifetime>14400</lifetime>
+    <restock>3600</restock>
+    <min>1</min>
+    <quantmin>5</quantmin>
+    <quantmax>60</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Military"/>
+    <value name="Tier6"/>
+    <value name="Tier7"/>
+   </type>
+</types>

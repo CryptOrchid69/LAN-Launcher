@@ -1,0 +1,27 @@
+﻿LAN Launcher Features And Functions
+
+LAN Launcher is a desktop app designed to help users install, prepare, manage, edit, and launch private DayZ LAN server maps with less technical work.
+
+Main features:
+
+1. Steam-assisted DayZ Server installation.
+2. Supported map setup for LAN server use.
+3. Required mod handling for supported server maps.
+4. Automatic key transfer into the DayZServer keys folder.
+5. Map selection through the NAVIGATE button.
+6. Server launching through the LAUNCH button.
+7. Server stopping through the STOP button.
+8. Server restart support through the RESTART button.
+9. Server wipe support by moving storage_1 to the Recycle Bin.
+10. MPMISSIONS and DZ BASE browsing.
+11. XML, JSON, CFG, TXT, and init.c editing support where allowed.
+12. Primary DayZ folder mod placement through the DZ button.
+13. Direct Server Connect through the DSC button.
+14. DataCache access through the DC button.
+15. Voice instructions and voice confirmations.
+16. Mute support through the M button.
+17. Built-in instruction library through the INSTRUCTIONS button.
+18. User-owned Knowledge Center for personal notes, guides, and files.
+19. Future-ready Badlands DLC support, so the app can prepare a Badlands server setup after Steam provides the official DLC mission files.
+
+The app is meant to reduce confusion, protect important server files, and make LAN server setup easier for regular gamers.

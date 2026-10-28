@@ -1,0 +1,133 @@
+READ ME - HOW TO USE THE TEACHER APP
+
+This file explains how to use the TEACHER app in simple words.
+
+
+WHAT THE TEACHER APP DOES
+
+TEACHER is a computer help and learning app.
+
+You can use it to:
+
+1. Ask questions about computers.
+2. Learn about computer terms and commands.
+3. Get help with common PC problems.
+4. Learn about routers, modems, WireGuard, CMD, scripts, and keyboard keys.
+5. Paste a script into the app and scan it for possible mistakes.
+6. Save an answer or scan result to a text file on your Desktop.
+
+
+WHERE THE INFORMATION FILES ARE
+
+The app reads its learning information from this folder:
+
+C:\Users\clust\Desktop\TEACHER\FILES
+
+This folder contains text files that the app searches when you ask a question.
+
+If you add more .txt files to the FILES folder, close and reopen the app. The app will then be able to search those new files too.
+
+
+HOW TO OPEN THE APP
+
+If you already built the app into an EXE file, open:
+
+C:\Users\clust\Desktop\TEACHER\TEACHER.exe
+
+If you are running the Python script in PyCharm, open and run:
+
+C:\Users\clust\Desktop\TEACHER\TEACHER.py
+
+
+HOW TO ASK A QUESTION
+
+1. Open the TEACHER app.
+2. Type your question into the left white box.
+3. Click the ASK button.
+4. The answer will appear in the right white box.
+5. The app will also try to read the answer out loud.
+
+Example questions:
+
+What can you tell me about routers and modems?
+
+How do I use CMD?
+
+What is WireGuard?
+
+What does IP address mean?
+
+How do I fix no internet connection?
+
+
+HOW TO SCAN A SCRIPT
+
+1. Copy your script or code.
+2. Paste it into the left white box.
+3. Click the SCAN button.
+4. The app will check for possible syntax errors, logic errors, safety issues, and formatting issues.
+5. The scan result will appear in the right white box.
+6. Possible problems will be shown in red text.
+
+The scanner can check:
+
+Python scripts
+PowerShell scripts
+Batch/CMD scripts
+C++ style code
+Enforce style code
+
+The scanner is a helpful first check, but it is not a full compiler.
+
+
+HOW TO USE THE BROWSE BUTTON
+
+1. Type a question into the left white box.
+2. Click BROWSE.
+3. The app will open a web search in your browser.
+
+Use BROWSE when the local files do not have enough information.
+
+
+HOW TO SAVE AN ANSWER TO A FILE
+
+1. Ask a question or scan a script.
+2. Wait for the result to appear in the right white box.
+3. Click FILE.
+4. The app will save the result as a text file on your Desktop.
+
+The saved file name will look similar to this:
+
+TEACHER_OUTPUT_20260617_123000.txt
+
+
+IMPORTANT THINGS TO REMEMBER
+
+The app needs the FILES folder to answer questions from your local information.
+
+Do not delete the FILES folder.
+
+Do not delete the text files inside the FILES folder unless you no longer want the app to use them.
+
+If you add new text files to the FILES folder, restart the app.
+
+If the app says it cannot find a close match, try asking the question with different words.
+
+For example, instead of asking:
+
+Help me.
+
+Ask:
+
+How do I fix no internet connection on Windows?
+
+
+LOCAL AI NOTE
+
+The TEACHER app can search the FILES folder by itself.
+
+It can also try to use Ollama if Ollama is installed and running on the computer.
+
+Without Ollama, the app works as a local learning and search assistant.
+
+With Ollama running, the app can give stronger AI-style answers.

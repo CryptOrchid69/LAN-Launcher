@@ -1,0 +1,22 @@
+<spawnabletypes>
+<!-- M134 MINIGUN  -->
+  <type name="M134Minigun">
+    <!-- Always spawn with a full magazine attached -->
+    <attachments chance="1.00">
+      <item name="M134Minigun_Mag" chance="1.00"/>
+    </attachments>
+
+    <!-- Always spawn carrying one tracer-ammo box -->
+    <cargo chance="1.00">
+      <item name="AmmoBox_308M134Tracer_20Rnd" chance="1.00"/>
+    </cargo>
+  </type>
+
+  <!-- MAGAZINE  -->
+  <!-- Optional: let loose mags spawn with a spare ammo box inside -->
+  <type name="M134Minigun_Mag">
+    <cargo chance="1.00">
+      <item name="AmmoBox_308M134Tracer_20Rnd" chance="1.00"/>
+    </cargo>
+  </type>
+</spawnabletypes>

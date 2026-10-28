@@ -1,0 +1,7 @@
+﻿RESTART Button
+
+The RESTART button restarts the active LAN Launcher server process. Use this only after a server map has already been launched. It is meant to give the server a clean restart without forcing the user to manually close and relaunch everything.
+
+Simple use:
+Open LAN Launcher, click the button when you need this function, and follow any voice or screen instructions shown by the app.
+

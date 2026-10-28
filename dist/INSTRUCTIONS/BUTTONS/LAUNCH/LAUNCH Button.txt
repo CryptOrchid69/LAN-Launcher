@@ -1,0 +1,10 @@
+﻿LAUNCH Button
+
+The LAUNCH button launches the selected server map. First click NAVIGATE, then click the map you want, then click LAUNCH. LAN Launcher prepares the server launch command, opens Steam to DayZ, and starts the selected DayZServer map.
+
+If the selected map needs a required Workshop mod, LAN Launcher checks for that mod before launch.
+
+If the selected map is a paid official DLC map, LAN Launcher checks for the needed mission files before launch. For Badlands, LAN Launcher is prepared ahead of time, but it will not launch Badlands until Bohemia releases the DLC and Steam provides the official Badlands mission folder.
+
+Simple use:
+Open LAN Launcher, click NAVIGATE, click the map you want, then click LAUNCH.

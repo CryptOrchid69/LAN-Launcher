@@ -1,0 +1,20 @@
+﻿Future Badlands DLC Support
+
+Badlands is planned as a future official DayZ DLC map. Because it is official DLC, it should be handled more like Chernarus or Enoch than like a Workshop map.
+
+What LAN Launcher prepares now:
+
+1. A Badlands server entry in the map list.
+2. A Badlands server folder name for the LAN Launcher Maps area.
+3. A Badlands config file path using serverDZ_BADLANDS.cfg.
+4. A future mission folder name using dayzOffline.badlands.
+5. No required Workshop map mod for Badlands.
+
+What must happen later:
+
+1. Bohemia must release the Badlands DLC.
+2. The user must purchase and install Badlands through Steam.
+3. Steam must provide the official server mission folder.
+4. The user should click INSTALL again so LAN Launcher can detect and place the official Badlands mission files.
+
+If the user tries to launch Badlands before those official files exist, LAN Launcher will warn the user instead of trying to launch a broken server map.

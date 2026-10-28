@@ -1,0 +1,23 @@
+Recent LAN & Public Servers
+
+[2026-07-04 23:39:19]
+Direct Address: 109.230.243.49:11200
+Original Server Data:
+Server name: 0030 | NORTH AMERICA - MI
+Address: 109.230.243.49:11200
+Server version: 1.29.163047
+Required game version: 1.29.0
+
+Map: Chernarusplus
+Mission: Official DayZ game server
+Players: 56/60
+
+------------------------------------------------------------
+
+[2026-07-04 23:42:43]
+Direct Address: 147.135.30.238:2502
+Original Server Data:
+Address: 147.135.30.238:2502
+
+------------------------------------------------------------
+

@@ -1,0 +1,7 @@
+﻿MODS Button
+
+The MODS button opens the selected map mod drop area. Click NAVIGATE first, select a map, then click MODS. The user can paste or drop @mod folders into that map-specific area. LAN Launcher then includes those local mods when launching that selected map.
+
+Simple use:
+Open LAN Launcher, click the button when you need this function, and follow any voice or screen instructions shown by the app.
+

@@ -1,0 +1,852 @@
+LAN Launcher Button Functions
+=========================
+
+This file explains the buttons that currently have real functions in the
+LAN Launcher app.
+
+At this stage, these buttons have real behavior:
+
+- ENTER
+- INSTALL
+- LAUNCH
+- NAVIGATE
+- MODS
+- STOP
+- MPMISSIONS
+- DELETE
+- SERVER WIPE
+- RESTART
+- UNINSTALL
+- M
+
+All other buttons are still placeholders unless changed later.
+
+
+ENTER
+=====
+
+Purpose
+-------
+
+The ENTER button saves the currently loaded editable server file.
+
+Editable server files include text-based DayZ files such as:
+
+- .cfg
+- .xml
+- .json
+- .txt
+- .c
+- .cpp
+
+How ENTER Works
+---------------
+
+When a server file is loaded into the white editing window, the user can edit
+the text directly inside the app.
+
+After the user clicks ENTER, LAN Launcher writes the edited text back into that
+same file.
+
+After the save succeeds, the app voice says:
+
+"Edit Saved."
+
+Safety Notes
+------------
+
+ENTER does not blindly save over every kind of file.
+
+It only saves editable text/config files inside the DayZServer folder, the
+managed LAN Launcher map folders, or the practice DayZServer folder inside the
+DayZServer-APP project folder.
+
+This prevents the app from accidentally writing over binary server files such
+as .exe, .dll, .pbo, or other non-text files.
+
+If no editable file is currently loaded, ENTER tells the user that there is no
+editable server file loaded yet.
+
+
+STEAM ID Type Bar
+=================
+
+Purpose
+-------
+
+The STEAM ID type bar saves the user's SteamID64 number for VPPAdminTools
+SuperAdmin access.
+
+How STEAM ID Saving Works
+-------------------------
+
+The user may paste either a full Steam profile link or only the SteamID64
+number.
+
+Example full profile link:
+
+https://steamcommunity.com/profiles/76561199380691183/
+
+This is only an example. Every user has their own different SteamID64 number.
+
+LAN Launcher automatically strips out everything except the SteamID64 number:
+
+76561199380691183
+
+Only the numerical digits are saved.
+
+If the user tries to paste the STEAM ID before LAN Launcher has been installed, the
+app voice says:
+
+"You must first click the INSTALL button and fully install the DayZServer from
+STEAM before you paste your STEAM ID into the type bar."
+
+After the profiles folder and VPPAdminTools permissions files exist, LAN Launcher
+saves the SteamID64 number into available SuperAdmins.txt files at:
+
+profiles\VPPAdminTools\Permissions\SuperAdmins\SuperAdmins.txt
+
+After the save succeeds, the app voice says:
+
+"STEAM ID Save Confirmed And Saved."
+
+
+Admin Password Type Bar
+=======================
+
+Purpose
+-------
+
+The Admin Password type bar saves the user's admin password into all nine
+LAN Launcher server config files.
+
+This password is written into the passwordAdmin line inside each serverDZ
+config file.
+
+How Admin Password Saving Works
+-------------------------------
+
+The user clicks inside the Admin Password type bar.
+
+The app voice says:
+
+"Choose whichever password you like, it can be anything. After you have chosen
+your password, click the ENTER button to save."
+
+The user types the admin password they want.
+
+The user clicks ENTER.
+
+LAN Launcher saves that admin password into all nine map config files:
+
+- serverDZ_BANOV.cfg
+- serverDZ_BITTERROOT.cfg
+- serverDZ_CHERNARUS.cfg
+- serverDZ_DEERISLE.cfg
+- serverDZ_ENOCH.cfg
+- serverDZ_NAMALSK.cfg
+- serverDZ_SAKHAL.cfg
+- serverDZ_BADLANDS.cfg
+
+After the save succeeds, the app voice says:
+
+"Save Confirmed."
+
+After that, LAN Launcher displays only three config lines in the white display
+window:
+
+hostname = "Any Name";  // Server name
+password = "####";  // Password to connect to the server
+passwordAdmin = "User's Admin Password";  // Password to become a server admin
+
+The bottom line shows the saved admin password.
+
+Then the app voice says:
+
+"Chose a hostname for your server, it can be any name you choose, then choose
+another password to connect you to the server, then click the ENTER button."
+
+The user may edit those three lines directly inside the white display window.
+
+After the user clicks ENTER again, LAN Launcher saves those three lines into all
+nine serverDZ config files.
+
+After the save succeeds, the app voice says:
+
+"Save Confirmed."
+
+Then the white display window is cleared.
+
+Safety Notes
+------------
+
+Admin Password saving only runs when no normal editable server file is loaded
+in the editor.
+
+If the user is editing an .xml, .json, .cfg, .txt, .c, or .cpp file through
+MPMISSIONS, the ENTER button continues to save that open file instead.
+
+LAN Launcher requires all nine managed map config files to exist before saving the
+admin password or the three server identity lines. If those files do not exist
+yet, the app tells the user to click INSTALL first.
+
+
+MPMISSIONS
+==========
+
+Purpose
+-------
+
+The MPMISSIONS button opens the selected map's mpmissions folder inside the
+white display window.
+
+How MPMISSIONS Works
+--------------------
+
+When clicked, MPMISSIONS clears the white display window and shows the nine
+supported map choices:
+
+- Banov
+- Bitterroot
+- Chernarus
+- DeerIsle
+- Enoch
+- Namalsk
+- Sakhal
+- Badlands
+
+The user clicks one map.
+
+After a map is clicked, LAN Launcher searches for that map's mission folder inside:
+
+- The installed Steam DayZServer folder
+- The practice DayZServer folder inside DayZServer-APP
+
+If the mission folder exists, the app opens a folder tree in the white display
+window.
+
+Folders have expandable arrows. This lets the user open folders inside folders
+inside folders.
+
+Opening And Editing Files
+-------------------------
+
+The user can double-click an editable text file in the tree.
+
+Editable files include:
+
+- .cfg
+- .xml
+- .json
+- .txt
+- .c
+- .cpp
+
+After a file is double-clicked, its full text opens inside the white editing
+window.
+
+The user can edit the file directly in the app.
+
+After editing, the user clicks ENTER to save the file.
+
+After the save succeeds, the app voice says:
+
+"Edit Saved."
+
+Replacing Files
+---------------
+
+The user can place a complete replacement file into an mpmissions subfolder.
+
+Example:
+
+The user can copy a new types.xml file from the Desktop, select the db folder
+inside the MPMISSIONS tree, and press Ctrl+V.
+
+LAN Launcher copies that file into the selected folder.
+
+The user can also drag a file from the Desktop and drop it directly onto a
+folder inside the MPMISSIONS tree.
+
+If a file with the same name already exists in that destination folder, the new
+file replaces the old file.
+
+After the replacement file is placed, the app voice says:
+
+"Replacement file placed."
+
+Safety Notes
+------------
+
+MPMISSIONS does not open binary server files for editing.
+
+Files such as .exe, .dll, .pbo, and other non-text files are protected from
+being edited through this button.
+
+The file replacement feature accepts server mission/config files such as .xml,
+.json, .cfg, .txt, .c, .cpp, .csv, and .map. It does not accept executable or
+server package files.
+
+
+DELETE
+======
+
+Purpose
+-------
+
+The DELETE button can delete a selected file from the MPMISSIONS folder tree.
+
+This is designed for cases where the user wants to remove a complete file and
+replace it with another complete file.
+
+How DELETE Works
+----------------
+
+The user first opens MPMISSIONS and chooses a map.
+
+The user then clicks one file in the folder tree to highlight it.
+
+The user clicks DELETE one time.
+
+The app voice says:
+
+"Warning, you are about to delete a very important file that will seriously
+impact your server. Please make sure that you have a replacement for this file
+to ensure proper server functioning. Click DELETE again if you wish to
+continue."
+
+If the user clicks DELETE again while that same file is still selected, DayZ
+LAN sends the file to the Windows Recycle Bin.
+
+After the file is moved to the Recycle Bin, the app voice says:
+
+"This file has been deleted and transferred into the recycle bin."
+
+Safety Notes
+------------
+
+DELETE currently works only on files selected inside the active MPMISSIONS tree.
+
+Folders are not deleted by this button.
+
+The first click only warns the user. The second click confirms the delete.
+
+The file is moved to the Windows Recycle Bin instead of being permanently
+destroyed.
+
+
+SERVER WIPE
+===========
+
+Purpose
+-------
+
+The SERVER WIPE button wipes the selected map's saved server world by moving
+its storage_1 folder to the Windows Recycle Bin.
+
+How SERVER WIPE Works
+---------------------
+
+The user first clicks NAVIGATE.
+
+The nine maps appear in the white display window.
+
+The user highlights the map they want to wipe.
+
+The user clicks SERVER WIPE one time.
+
+The app voice says:
+
+"You are about to delete the storage_1 folder which will wipe this server
+clean. If you wish to continue, click the SERVER WIPE button again."
+
+If the user clicks SERVER WIPE again while the same storage_1 folder is still
+the target, LAN Launcher moves that storage_1 folder to the Windows Recycle Bin.
+
+After the folder is moved, the app voice says:
+
+"storage_1 folder deleted and transferred into recycle bin."
+
+If SERVER WIPE Is Clicked Too Early
+-----------------------------------
+
+If the user clicks SERVER WIPE before clicking NAVIGATE and highlighting a map,
+the app voice says:
+
+"You must first click the NAVIGATE button, then highlight the map of your
+choice in your display window and click the SERVER WIPE button to wipe the
+server."
+
+Safety Notes
+------------
+
+SERVER WIPE uses a two-click confirmation.
+
+The first click warns the user.
+
+The second click performs the wipe.
+
+The storage_1 folder is moved to the Windows Recycle Bin instead of being
+permanently destroyed.
+
+SERVER WIPE looks for storage_1 inside the selected map's managed folder,
+starting with:
+
+C:\Program Files (x86)\Steam\steamapps\common\DayZServer\LAN Launcher Maps\SelectedMap\profiles\storage_1
+
+
+NAVIGATE
+========
+
+Purpose
+-------
+
+The NAVIGATE button shows the nine LAN Launcher map folders in the white display
+window.
+
+How NAVIGATE Works
+------------------
+
+When clicked, NAVIGATE displays these map choices:
+
+- Banov
+- Bitterroot
+- Chernarus
+- DeerIsle
+- Enoch
+- Namalsk
+- Sakhal
+- Badlands
+
+The user clicks one map to highlight it.
+
+That highlighted map becomes the active map target for the MODS button.
+
+
+MODS
+====
+
+Purpose
+-------
+
+The MODS button opens the exact mod drop folder for the highlighted map.
+
+How MODS Works
+--------------
+
+The user first clicks NAVIGATE.
+
+The user then highlights the map folder they want to work with.
+
+After that, the user clicks MODS.
+
+LAN Launcher opens the selected map's dedicated mods folder in Windows Explorer.
+
+Example:
+
+If the user highlights DayZServerDEERISLE and clicks MODS, LAN Launcher opens:
+
+C:\Program Files (x86)\Steam\steamapps\common\DayZServer\LAN Launcher Maps\DayZServerDEERISLE\mods
+
+The user can drag extra Workshop @mod folders into that exact folder.
+
+When that map is launched, LAN Launcher automatically includes @mod folders found
+inside that selected map's mods folder, so those extra mods stay tied to that
+specific map.
+
+Safety Notes
+------------
+
+MODS only opens the folder for the selected map.
+
+If DayZServerCHERNARUS is selected, MODS opens only the Chernarus mods folder.
+
+If the user clicks MODS before clicking NAVIGATE and highlighting a map, the app
+voice tells the user:
+
+"You must first click the NAVIGATE button, before you click the MODS button.
+Then, after you click and highlight the map in your display window, click the
+MODS button. Then drag or paste your mods into the display window."
+
+The app also places a DROP MODS HERE.txt marker inside the selected map's mods
+folder so the user can confirm they are in the correct destination.
+
+This keeps extra mods separated by map and reduces the chance of accidentally
+placing mods into the wrong LAN Launcher map folder.
+
+
+STOP
+====
+
+Purpose
+-------
+
+The STOP button stops any running DayZServer_x64.exe process.
+
+How STOP Works
+--------------
+
+If LAN Launcher started the active server, STOP asks that active server process
+to close.
+
+If LAN Launcher detects a hidden or stuck DayZServer_x64.exe process, STOP tries
+to stop that process too.
+
+If the server does not stop cleanly, LAN Launcher attempts a stronger forced
+stop.
+
+After the server stops, the app voice says:
+
+"Server stopped."
+
+Why STOP Is Important
+---------------------
+
+A hidden DayZServer_x64.exe process can block LAUNCH, UNINSTALL, and folder
+cleanup.
+
+When LAN Launcher detects that the server is still running, the app voice says:
+
+"The server is still running, please click the stop button."
+
+Automatic Key Transfer
+----------------------
+
+The old KEYS button is no longer needed.
+
+Whenever the user opens a selected map's MODS folder, LAN Launcher scans that
+folder for @mod folders.
+
+When the user adds, drags, or pastes an @mod folder into that selected map's
+MODS folder, LAN Launcher watches for the folder change and scans again.
+
+LAN Launcher looks inside each @mod folder for a keys or Keys folder.
+
+Any .bikey file that is not already inside the main DayZServer keys folder is
+copied into:
+
+C:\Program Files (x86)\Steam\steamapps\common\DayZServer\keys
+
+After new keys are transferred, the app voice says:
+
+"All Keys Transferred."
+
+Safety Notes
+------------
+
+Automatic key transfer only scans the selected map mods folder opened by the
+MODS button.
+
+This prevents keys from another map's mod folder from being mixed into the
+wrong workflow.
+
+
+INSTALL
+=======
+
+Purpose
+-------
+
+The INSTALL button prepares the LAN Launcher map folder system.
+
+It is designed to support multiple LAN map setups while still using one shared
+Steam DayZServer base folder.
+
+
+What INSTALL Does
+-----------------
+
+When clicked, INSTALL checks this Steam common folder:
+
+C:\Program Files (x86)\Steam\steamapps\common
+
+If DayZ Server is already installed, it creates this managed LAN Launcher folder
+inside the installed DayZServer folder:
+
+C:\Program Files (x86)\Steam\steamapps\common\DayZServer\LAN Launcher Maps
+
+Inside that folder, it creates one map folder for each supported map:
+
+- DayZServerBANOV
+- DayZServerBITTERROOT
+- DayZServerCHERNARUS
+- DayZServerDEERISLE
+- DayZServerENOCH
+- DayZServerNAMALSK
+- DayZServerSAKHAL
+- DayZServerBADLANDS
+
+Inside each map folder, INSTALL creates:
+
+- config
+- keys
+- mods
+- SERVER INFO.txt
+
+It also creates a starter server config file for each map profile and a
+mods\mod_list.txt file for mod setup.
+
+INSTALL also copies available mission folders from the LAN Launcher app's local
+mpmissions library into the installed DayZServer mpmissions folder:
+
+C:\Program Files (x86)\Steam\steamapps\common\DayZServer\mpmissions
+
+The mission folders currently prepared for quick installation are:
+
+- dayzOffline.banov
+- empty.Bitterroot
+- dayzOffline.chernarusplus
+- dayzOffline.deerisle
+- dayzOffline.enoch
+- hardcore.namalsk
+- dayzOffline.sakhal
+
+Badlands is still prepared in the app as a future map profile, but its real
+mission folder is not copied until Bohemia releases the Badlands DLC and the
+real dayzOffline.badlands folder exists.
+
+Every map's mod_list.txt is given these required base mods:
+
+- @CF
+- @VPPAdminTools
+
+These two mods are required for the LAN Launcher admin setup and are assigned to
+all nine supported maps.
+
+Maps with known Workshop map mods also receive their matching map mod in that
+map's mod_list.txt:
+
+- Banov uses @Banov
+- Bitterroot uses @Bitterroot
+- DeerIsle uses @DeerIsle
+- Namalsk uses @Namalsk Island
+
+INSTALL does not create the profiles folder during this step. The profiles
+folder is created later when that specific map is launched.
+
+
+Shared Base Server Design
+-------------------------
+
+INSTALL does not copy the full DayZServer base folder into every map folder.
+
+Instead, all map profiles are designed to use this one shared Steam install:
+
+C:\Program Files (x86)\Steam\steamapps\common\DayZServer
+
+This avoids wasting disk space by duplicating the full server install many
+times.
+
+Each map folder can still have its own:
+
+- Config file
+- Keys folder
+- Mod list
+
+The profiles folder is handled by LAUNCH when that map is actually started.
+
+
+Known Workshop Mods
+-------------------
+
+INSTALL checks whether these known Workshop mods already exist inside the
+DayZServer folder:
+
+- C:\Program Files (x86)\Steam\steamapps\common\DayZServer\@CF
+- C:\Program Files (x86)\Steam\steamapps\common\DayZServer\@VPPAdminTools
+- C:\Program Files (x86)\Steam\steamapps\common\DayZServer\@Banov
+- C:\Program Files (x86)\Steam\steamapps\common\DayZServer\@Bitterroot
+- C:\Program Files (x86)\Steam\steamapps\common\DayZServer\@DeerIsle
+- C:\Program Files (x86)\Steam\steamapps\common\DayZServer\@Namalsk Island
+
+If a known mod is already there, LAN Launcher accepts it.
+
+If a known mod is not inside DayZServer yet, LAN Launcher checks the Steam
+Workshop download folder:
+
+C:\Program Files (x86)\Steam\steamapps\workshop\content\221100
+
+If the Workshop download exists there, LAN Launcher copies it into the DayZServer
+folder using the correct server mod folder name.
+
+If the known mod is not downloaded yet, LAN Launcher opens the correct Steam
+Workshop page for the missing mod so the user can subscribe and let Steam
+download it.
+
+After Steam finishes downloading the missing known mod, the user clicks
+INSTALL again. LAN Launcher will then detect the downloaded Workshop content and
+copy it into the DayZServer folder.
+
+LAN Launcher also immediately deposits .bikey files from the seven known mod
+folders into the DayZServer keys folder when those key files are available.
+
+The keys are deposited into:
+
+C:\Program Files (x86)\Steam\steamapps\common\DayZServer\keys
+
+This happens during INSTALL whenever LAN Launcher detects or copies one of the
+known mods.
+
+
+If DayZ Server Is Not Installed
+-------------------------------
+
+If INSTALL does not find:
+
+C:\Program Files (x86)\Steam\steamapps\common\DayZServer\DayZServer_x64.exe
+
+then the app opens Steam to the DayZ Server install page.
+
+The app also opens Steam to the DayZ Tools install page.
+
+After Steam finishes installing DayZ Server, INSTALL continues if it can detect
+the server folder. If Steam is still downloading, the user should click INSTALL
+again after the download finishes.
+
+If INSTALL cannot complete the setup or DayZ Server is not detected before the
+install wait time ends, the app voice says:
+
+"Installation Failed."
+
+
+Important Notes
+---------------
+
+INSTALL should be run as administrator because it creates folders inside:
+
+C:\Program Files (x86)
+
+INSTALL now handles the required base mods @CF and @VPPAdminTools.
+
+INSTALL also recognizes the verified map mod IDs learned from the practice
+DayZServer folder for Banov, Bitterroot, DeerIsle, and Namalsk Island.
+
+Any additional special map mods still need exact verified Workshop IDs before
+LAN Launcher can safely automate them.
+
+
+LAUNCH
+======
+
+Purpose
+-------
+
+The LAUNCH button starts the LAN Launcher server for the map that is currently
+highlighted in the white display window.
+
+
+How LAUNCH Works
+----------------
+
+The white display window shows the supported map list.
+
+The app displays these map choices:
+
+- Banov
+- Bitterroot
+- Chernarus
+- DeerIsle
+- Enoch
+- Namalsk
+- Sakhal
+- Badlands
+
+The user left-clicks the map they want to use.
+
+After the map is highlighted, the user clicks LAUNCH.
+
+LAUNCH does not open or refresh the map list. Its single purpose is to launch
+the highlighted map.
+
+
+What LAUNCH Does After A Map Is Selected
+----------------------------------------
+
+LAUNCH opens Steam's library view.
+
+Then it starts the shared DayZServer_x64.exe from:
+
+C:\Program Files (x86)\Steam\steamapps\common\DayZServer
+
+It launches the server with the selected map profile's:
+
+- Config file
+- Profiles folder
+- BattleEye path
+- Mod list, if valid @mod folder names are listed
+
+DLC Map Checks
+--------------
+
+Before launching DLC maps, LAN Launcher checks whether the required DLC and mission
+folder can be detected.
+
+Sakhal requires:
+
+- DayZ Frostline
+- Steam DLC app ID 2968040
+- mpmissions\dayzOffline.sakhal
+
+Badlands is treated as a future DLC map. Until Bohemia releases the real
+Badlands DLC and the real mpmissions\dayzOffline.badlands folder exists, DayZ
+LAN will not launch Badlands.
+
+If the user highlights Sakhal or Badlands and clicks LAUNCH without the required
+DLC or mission folder being detected, the app voice says:
+
+"You must have the DLC for those maps."
+
+This prevents the app from trying to start a DLC map that the user cannot run.
+
+
+First-Time Profile Instructions
+-------------------------------
+
+If the selected map profile's profiles folder is empty, the app treats it as a
+first-time profile launch.
+
+The app will speak and print instructions telling the user to let the server run
+long enough for profile data to appear.
+
+When profile data appears, the app tells the user to add:
+
+- Steam ID
+- Admin Password
+
+Those entry fields are already visible at the top of the app, but saving those
+values will be connected to the ENTER button in a later build.
+
+
+Server Monitoring
+-----------------
+
+After launching the server, the app watches the server process.
+
+If the server closes normally, the app reports that it closed normally.
+
+If the server closes unexpectedly, the app speaks a warning and looks for recent
+profile logs that may help explain what happened.
+
+The app checks for recent files such as:
+
+- crash_*.log
+- error_*.log
+- script_*.log
+- *.RPT
+
+These logs can provide clues about possible server-side instability.
+
+
+Important Notes
+---------------
+
+LAUNCH can detect crashes and warning signs, but it cannot perfectly predict
+every DayZ server crash before it happens.
+
+Custom maps such as Banov, DeerIsle, Namalsk, Bitterroot, and
+Badlands may require Workshop mods before they can launch correctly.
+
+At this stage, those map mods are not automatically downloaded by the app.
+
+If a custom map profile does not have real @mod folder names in its
+mods\mod_list.txt file, the app warns the user in the display window.
